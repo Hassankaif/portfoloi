@@ -3,6 +3,7 @@ import {RouterProvider,createBrowserRouter} from 'react-router'
 import Form from './to do list/form'
 import Home from './Home'
 import Root from './components/root'
+import Todo from './todo'
 
 function App(){
 
@@ -10,7 +11,8 @@ function App(){
             { path:'/', 
               element:<Root/>,
               children:[ { path:'/' , element:<Home/>},
-                        { path:'/form', element:<Form/>}
+                        { path:'/form', element:<Form/>},
+                        {path:'/todo', element:<Todo/>}
                     ] 
             }
             

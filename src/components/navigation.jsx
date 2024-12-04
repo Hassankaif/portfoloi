@@ -4,6 +4,7 @@ const Navigation=()=>{
     return <>
         <Link to="/form"> FORMS </Link>
         <Link to="/"> HOME </Link>
+        <Link to="/todo"> TO DO  </Link>
     </>
 }
 
